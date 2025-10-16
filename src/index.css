@@ -1,4 +1,25 @@
-:root {
+@import "tailwindcss";
+@plugin "daisyui";
+
+@theme {
+  --color-Primary:  #123524;
+  --color-Secondary: #3E7B27;
+  --color-Tertiary: #85A947;
+  --color-Neutral: #EFE3C2;
+}
+/* @theme {
+  --color-Primary: #3E7B27;
+  --color-Secondary: #85A947;
+  --color-Tertiary: #123524;
+  --color-neutral: #EFE3C2;
+}
+@theme {
+  --color-Primary: #3E7B27;
+  --color-Secondary: #85A947;
+  --color-Tertiary: #123524;
+  --color-neutral: #EFE3C2;
+} */
+/* :root {
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
@@ -65,4 +86,4 @@ button:focus-visible {
   button {
     background-color: #f9f9f9;
   }
-}
+} */
