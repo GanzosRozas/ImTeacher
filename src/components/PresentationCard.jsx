@@ -1,5 +1,5 @@
 import React from "react";
-
+import {Link } from "react-router-dom";
 function PresentationCard() {
   return (
     <div
@@ -16,7 +16,8 @@ function PresentationCard() {
       <p className="mb-5 text-Neutral">
         La aplicación que estabas buscando para tu escuela
       </p>
-      <button className="btn  border-Primary bg-Neutral text-Primary">Comenzar</button>
+
+     <Link to="/signup" className="btn  border-Primary bg-Neutral text-Primary">Comenzar</Link>
     </div>
   </div>
   
